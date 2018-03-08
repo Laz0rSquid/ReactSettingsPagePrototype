@@ -1,0 +1,23 @@
+{
+  "name": "settingspageprototype",
+  "version": "1.0.0",
+  "description": "prototype for role settings page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Laz0rSquid/ReactSettingsPagePrototype.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Laz0rSquid/ReactSettingsPagePrototype/issues"
+  },
+  "homepage": "https://github.com/Laz0rSquid/ReactSettingsPagePrototype#readme",
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
+  }
+}
