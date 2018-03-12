@@ -1,0 +1,62 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+.wrapper {
+  width: 944px;
+}
+
+.dynamic-setting-list {
+  margin-left: 100px;
+  max-height: 350px;
+  overflow-y: auto;
+}
+
+.setting-list__element {
+  padding: 10px 0px;
+}
+
+.list-element__topic {
+  display: inline-block;
+  float: left;
+  padding: 10px;
+  width: 200px;
+}
+
+.topic__description {
+}
+
+.topic__content {
+  display: inline-block;
+}
+
+.topic-content__checkbox-list {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.checkbox-list__element {
+}
+
+.checkbox-styling {
+}
+
+.checkbox-option__hint {
+  font-size: 10px;
+  margin-left: 25px;
+}
+
+.bottom-option-row {
+  float: right;
+  padding: 20px;
+  margin-right: 50px;
+}
+
+.bottom-option-row button {
+  background-color: #1b6aa5;
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+}
