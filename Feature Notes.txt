@@ -1,0 +1,15 @@
+Infos on use case:
+- Page is intended for administrators only
+- Page is not used that often --> clearness of functionality is important
+- Not likely that it will be expanded massively in the future, so the current view should work reasonably well
+- In case options double or triple in volume: restructuring necessary
+
+Thoughts on Role Settings Page:
+- Add Collapse All and Expand All buttons on bottom
+- Description needs to be added to the data model --> Figure out proper way to integrate into view
+
+Additional Features:
+- Select All and Unselect All buttons at the bottom // how useful is this? Too narrow in application (only usable for admin definition)
+- For each Topic: Select All Of This and Unselect All Of This buttons (maybe too crowded? usefulness?)
+- Preset role profiles? (probably not the best since it's not used often, and proper access rights are more important than quick assignment of rights)
+- Customize role profile and save as custom role (good feature, but not appropriate for the current use case)

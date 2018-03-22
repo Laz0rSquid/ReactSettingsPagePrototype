@@ -4,6 +4,7 @@
 <head>
 	<title> Role Settings Page </title>
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<meta charset="UTF-8">
 </head>
 
 <body>
@@ -11,9 +12,10 @@
 		<img src="./img/mockupheader.png" style="height: 250px;">
 		<div class="dynamic-setting-list">
 			<div class="setting-list__element">
-				<div class="list-element__topic">Topic</div>
-				<button onclick="toggleDiv('id')">Click</button>
-				<div class="topic__content" id="id">
+				<div class="list-element__topic">
+					<button onclick="toggleDiv('id1')">Topic 1></button>
+				</div>
+				<div class="topic__content" id="id1">
 					<div class="topic__description">Description</div>
 					<ul class="topic-content__checkbox-list">
 						<li>
@@ -31,15 +33,12 @@
 					</ul>
 				</div>
 			</div>
-			<script>
-				function toggleDiv(id) {
-					var div = document.getElementById(id);
-					div.style.display = div.style.display == "none" ? "inline-block" : "none";
-				}
-			</script>
-			<div class="setting-list___element">
-				<div class="list-element__topic">Topic</div>
-				<div class="topic__content">
+			<hr>
+			<div class="setting-list__element">
+				<div class="list-element__topic">
+					<button onclick="toggleDiv('id2')">Topic 2></button>
+				</div>
+				<div class="topic__content" id="id2">
 					<div class="topic__description">Description</div>
 					<ul class="topic-content__checkbox-list">
 						<li>
@@ -57,9 +56,12 @@
 					</ul>
 				</div>
 			</div>
-			<div class="setting-list___element">
-				<div class="list-element__topic">Topic</div>
-				<div class="topic__content">
+			<hr>
+			<div class="setting-list__element">
+				<div class="list-element__topic">
+					<button onclick="toggleDiv('id3')">Topic 3></button>
+				</div>
+				<div class="topic__content" id="id3">
 					<div class="topic__description">Description</div>
 					<ul class="topic-content__checkbox-list">
 						<li>
@@ -77,9 +79,12 @@
 					</ul>
 				</div>
 			</div>
-			<div class="setting-list___element">
-				<div class="list-element__topic">Topic</div>
-				<div class="topic__content">
+			<hr>
+			<div class="setting-list__element">
+				<div class="list-element__topic">
+					<button onclick="toggleDiv('id4')">Topic 4></button>
+				</div>
+				<div class="topic__content" id="id4">
 					<div class="topic__description">Description</div>
 					<ul class="topic-content__checkbox-list">
 						<li>
@@ -97,9 +102,12 @@
 					</ul>
 				</div>
 			</div>
-			<div class="setting-list___element">
-				<div class="list-element__topic">Topic</div>
-				<div class="topic__content">
+			<hr>
+			<div class="setting-list__element">
+				<div class="list-element__topic">
+					<button onclick="toggleDiv('id5')">Topic 5></button>
+				</div>
+				<div class="topic__content" id="id5">
 					<div class="topic__description">Description</div>
 					<ul class="topic-content__checkbox-list">
 						<li>
@@ -117,13 +125,38 @@
 					</ul>
 				</div>
 			</div>
+			<hr>
+			<div class="setting-list__element">
+				<div class="list-element__topic">
+					<button onclick="toggleDiv('id6')">Topic 6></button>
+				</div>
+				<div class="topic__content" id="id6">
+					<div class="topic__description">Description</div>
+					<ul class="topic-content__checkbox-list">
+						<li>
+							<input type="checkBox" name="Option 1" class="checkbox-styling"> Option 1
+							<div class="checkbox-option__hint">(Hint)</div>
+						</li>
+						<li>
+							<input type="checkBox" name="Option 2" class="checkbox-styling"> Option 2
+							<div class="checkbox-option__hint">(Hint)</div>
+						</li>
+						<li>
+							<input type="checkBox" name="Option 3" class="checkbox-styling"> Option 3
+							<div class="checkbox-option__hint">(Hint)</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<hr>
+
 		</div>
 		<div class="bottom-option-row">
 			<button>Expand All</button>
 			<button>Collapse All</button>
 			<button>Update</button>
 		</div>
-	</div>
+		<script src="./js/prototype.js"></script>
 </body>
 
 </html>
