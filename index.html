@@ -12,7 +12,8 @@
 		<div class="dynamic-setting-list">
 			<div class="setting-list__element">
 				<div class="list-element__topic">Topic</div>
-				<div class="topic__content">
+				<button onclick="toggleDiv('id')">Click</button>
+				<div class="topic__content" id="id">
 					<div class="topic__description">Description</div>
 					<ul class="topic-content__checkbox-list">
 						<li>
@@ -30,6 +31,12 @@
 					</ul>
 				</div>
 			</div>
+			<script>
+				function toggleDiv(id) {
+					var div = document.getElementById(id);
+					div.style.display = div.style.display == "none" ? "inline-block" : "none";
+				}
+			</script>
 			<div class="setting-list___element">
 				<div class="list-element__topic">Topic</div>
 				<div class="topic__content">
