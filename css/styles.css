@@ -1,6 +1,3 @@
-* {
-  font-size: 20px;
-}
 
 body {
   padding: 0px;
@@ -9,6 +6,8 @@ body {
 
 hr {
   border-color: #ff00ff;
+  margin: 0px;
+  padding: 0px;
 }
 
 .wrapper {
@@ -24,17 +23,25 @@ hr {
 .setting-list__element {
   padding: 10px 0px;
   position: relative;
+  display: flex;
 }
 
 .list-element__topic {
   display: inline-block;
+<<<<<<< Updated upstream
   padding: 10px;
+=======
+>>>>>>> Stashed changes
   width: 200px;
 }
 
 .list-element__topic button {
   background-color: #ffffff;
-  border: none;
+  border: 1px solid #ff00ff;
+  padding: 5px 0px;
+  text-align: center;
+  font-size: 18px;
+  width: 200px;
 }
 
 .topic__content {
@@ -42,6 +49,7 @@ hr {
 }
 
 .topic__description {
+  font-size: 16px;
 }
 .topic-content__checkbox-list {
   list-style-type: none;
