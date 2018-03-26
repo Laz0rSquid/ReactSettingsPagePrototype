@@ -16,22 +16,17 @@ hr {
 
 .dynamic-setting-list {
   margin-left: 100px;
-  max-height: 350px;
+  height: 350px;
   overflow-y: auto;
 }
 
 .setting-list__element {
-  padding: 10px 0px;
   position: relative;
   display: flex;
 }
 
 .list-element__topic {
   display: inline-block;
-<<<<<<< Updated upstream
-  padding: 10px;
-=======
->>>>>>> Stashed changes
   width: 200px;
 }
 
