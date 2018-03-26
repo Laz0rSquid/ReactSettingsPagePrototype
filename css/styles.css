@@ -1,6 +1,14 @@
+* {
+  font-size: 20px;
+}
+
 body {
   padding: 0px;
   margin: 0px;
+}
+
+hr {
+  border-color: #ff00ff;
 }
 
 .wrapper {
@@ -15,22 +23,26 @@ body {
 
 .setting-list__element {
   padding: 10px 0px;
+  position: relative;
 }
 
 .list-element__topic {
   display: inline-block;
-  float: left;
   padding: 10px;
   width: 200px;
 }
 
-.topic__description {
+.list-element__topic button {
+  background-color: #ffffff;
+  border: none;
 }
 
 .topic__content {
-  display: inline-block;
+  display: none;
 }
 
+.topic__description {
+}
 .topic-content__checkbox-list {
   list-style-type: none;
   padding: 0px;
