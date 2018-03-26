@@ -17,7 +17,7 @@ hr {
 
 .dynamic-setting-list {
   margin-left: 100px;
-  max-height: 350px;
+  height: 350px;
   overflow-y: auto;
 }
 
